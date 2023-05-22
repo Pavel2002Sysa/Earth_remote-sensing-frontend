@@ -1,0 +1,54 @@
+/* CarouselAntd.module.css */
+.arrowButton {
+  background-color: white !important;
+  color: #1890ff;
+  position: absolute;
+  bottom: 10px;
+  z-index: 1;
+}
+.arrowButton .ant-pagination-next {
+  background-color: white !important;
+}
+.arrowButtonLeft {
+  left: 10px;
+}
+
+.arrowButtonRight {
+  right: 10px;
+}
+
+.arrowButton .anticon {
+  font-size: 24px; /* Adjust the font-size to make the arrows bigger */
+}
+
+/* CarouselAntd.module.css */
+.carouselWrapper {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.carouselPagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carouselPagination .ant-pagination-item,
+.carouselPagination .ant-pagination-prev,
+.carouselPagination .ant-pagination-next {
+  background-color: white;
+  border-color: white;
+}
+
+.carouselPagination .ant-pagination-item:focus,
+.carouselPagination .ant-pagination-item:hover,
+.carouselPagination .ant-pagination-prev:focus,
+.carouselPagination .ant-pagination-prev:hover,
+.carouselPagination .ant-pagination-next:focus,
+.carouselPagination .ant-pagination-next:hover,
+.carouselPagination .ant-pagination-item-active {
+  background-color: white;
+  border-color: white;
+}

@@ -1,0 +1,45 @@
+.carouselPagination .ant-pagination-item a {
+  color: rgb(0, 0, 0);
+  font-size: 20px; /* adjust this value to your desired size */
+  border: 2px solid black; /* add a border */
+  border-radius: 50%; /* make the border round */
+  padding: 5px 12px;
+}
+
+.carouselPagination .ant-pagination-item a:hover {
+  color: rgb(179, 179, 179);
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* add a slight background color on hover */
+}
+
+.carouselPagination .ant-pagination-item-active a {
+  color: rgb(191, 191, 191);
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.carouselPagination .ant-pagination-item-active li {
+  border: none;
+}
+.carouselPagination .ant-pagination-item-active:hover {
+  border: none;
+}
+.carouselPagination .ant-pagination-item-active:active {
+  border: none;
+  border-color: transparent;
+}
+.carouselPagination .ant-pagination-item li:active {
+  background-color: transparent !important; /* remove the default blue background */
+}
+.my-custom-pagination .ant-pagination-item-active {
+  font-weight: 600;
+  background-color: #ffffff;
+  border: none;
+}
+.my-custom-pagination .ant-pagination-item-link {
+  background-color: #dedede !important;
+  margin-top: 5px;
+}

@@ -1,0 +1,28 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 552px;
+  margin: 217px auto;
+ 
+
+}
+.registerTip {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+}
+.heading {
+  /* typography/h4 */
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 123.5%;
+  /* identical to box height, or 42px */
+
+  letter-spacing: 0.25px;
+
+  /* text/primary */
+
+  color: rgba(0, 0, 0, 0.87);
+}

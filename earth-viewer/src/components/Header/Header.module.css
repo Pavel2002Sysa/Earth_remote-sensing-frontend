@@ -1,0 +1,39 @@
+.flexContainer {
+  background-color: #18c949;
+  height: 145px;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+/* .logoImg {
+  width: 50px;
+  height: 50px;
+} */
+.imgWrapper {
+  width: auto;
+  height: 80px;
+}
+.btnWrapper {
+  margin-right: 60px;
+  gap: 70px;
+  display: flex;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height, or 173% */
+  align-items: center;
+  height: 50px;
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+
+  /* primary/contrast */
+
+  color: #ffffff;
+}
+
+.profileWrapper {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
